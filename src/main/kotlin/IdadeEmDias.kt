@@ -14,7 +14,7 @@ Exemplo de Entrada 	Exemplo de Saída
  */
 
 import java.util.*
-import kotlin.math.floor
+
 // Idade em Dias
 fun main(args: Array<String>) {
 
