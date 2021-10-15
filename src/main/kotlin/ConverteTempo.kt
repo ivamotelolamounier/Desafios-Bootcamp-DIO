@@ -15,3 +15,13 @@
 import java.util.*
 
 //implemente aqui sua solução para este desafio
+fun main(arg: Array<String>) {
+    val entrada = Scanner(System.`in`)
+    val tempo = entrada.nextInt()
+
+    val horas = (tempo / 3600)
+    val minutos = ((tempo % 3600) / 60)
+    val segundos = ((tempo % 3600) % 60)
+
+    println("$horas:$minutos:$segundos")
+}
